@@ -2,7 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-hr {
+/* hr {
   align-content: center;
   max-width: 980px;
+} */
+.links {
+  display: flex;
+  justify-content: center;
+}
+.links a {
+  text-align: center;
+  font-size: 1em;
+  padding: 10px;
+  color: #7fdff4;
+  text-decoration: none;
+}
+.links a:hover {
+  transform: scale(1.1);
+  color: whitesmoke;
 }

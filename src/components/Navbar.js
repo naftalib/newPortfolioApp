@@ -21,6 +21,16 @@ export default function Navbar() {
             | Testimonials
           </a>
         </nav>
+          <div className="links">
+            <a href="https://www.linkedin.com/in/naftalib/" 
+               target='_blank'>
+               <i className="fab fa-linkedin">
+               </i></a>
+           	<a href="https://github.com/naftalib" 
+               target='_blank'>
+               <i className="fab fa-github">
+               </i></a>
+          </div>
         <a
           href="#contact"
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">

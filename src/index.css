@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* hr {
+hr {
   align-content: center;
-  max-width: 980px;
-} */
+  max-width: 90%;
+}
 .links {
   display: flex;
   justify-content: center;
